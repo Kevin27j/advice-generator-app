@@ -1,0 +1,44 @@
+:root {
+    /* ### Primary */
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
+
+    /* ### Neutral */
+    --grayish-blue: hsl(217, 19%, 38%);
+    --dark-grayish-blue: hsl(217, 19%, 24%);
+    --dark-blue: hsl(218, 23%, 16%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--dark-blue);
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ADVICE CONTAINER */
+.advice-container {
+    background-color: var(--dark-grayish-blue);
+    min-width: 320px;
+    height: 350px;
+    margin-top: 20vh;
+    border-radius: 10px;
+}
+
+
+
+/* ATTRIBUTION */
+.attribution {
+    position: fixed;
+    bottom: 0;
+}
