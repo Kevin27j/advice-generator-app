@@ -33,7 +33,16 @@ body {
     height: 350px;
     margin-top: 20vh;
     border-radius: 10px;
-    
+    position: relative;
+}
+
+.random-button {
+    background-color: var(--neon-green);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -9%;
 }
 
 /* ATTRIBUTION */
