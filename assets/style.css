@@ -29,7 +29,7 @@ body {
 /* ADVICE CONTAINER */
 .advice-container {
     background-color: var(--dark-grayish-blue);
-    min-width: 320px;
+    min-width: 340px;
     height: 350px;
     margin-top: 20vh;
     border-radius: 10px;
