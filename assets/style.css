@@ -17,6 +17,7 @@
 body {
     box-sizing: border-box;
     background-color: var(--dark-blue);
+    font-family: 'Manrope', sans-serif;
 }
 
 .flex {
@@ -29,11 +30,33 @@ body {
 /* ADVICE CONTAINER */
 .advice-container {
     background-color: var(--dark-grayish-blue);
-    min-width: 340px;
-    height: 350px;
+    min-width: 380px;
+    height: 380px;
     margin-top: 20vh;
     border-radius: 10px;
     position: relative;
+}
+
+/* ADVICE ID AND CONTENT */
+.advice-id-style {
+    color: var(--neon-green);
+    font-size: .7rem;
+    letter-spacing: 3px;
+    font-weight: 400;
+    position: absolute;
+    top: 18%;
+}
+
+.advice-content-style {
+    color: var(--light-cyan);
+    text-align: center;
+    width: 300px;
+    font-size: 25px;
+}
+
+.line-divider {
+    position: absolute;
+    bottom: 18%;
 }
 
 .random-button {

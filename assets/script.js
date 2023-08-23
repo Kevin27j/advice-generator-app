@@ -12,16 +12,17 @@ async function getRandomAdvice() {
     // Save random id and advice to new variables
     const id = data.slip.id;
     const advice = data.slip.advice;
-    // console.log(id, advice)
-    handleClick(id, advice);
+
+    // call function to display content passing id and advice content
+    displayAdvice(id, advice);
 }
 
-function handleClick(id, advice) {
-    // console.log(id, advice)
-    adviceId.innerHTML = id
-    adviceContent.innerText = advice
+function displayAdvice(id, advice) {
+    // display api content to page elements
+    adviceId.textContent = id;
+    adviceContent.textContent = advice;
 }
 
-randomButton.addEventListener("click", handleClick)
+randomButton.addEventListener("click", displayAdvice)
 
 getRandomAdvice()
