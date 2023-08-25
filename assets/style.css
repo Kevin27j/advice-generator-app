@@ -31,7 +31,7 @@ body {
 .advice-container {
     background-color: var(--dark-grayish-blue);
     min-width: 380px;
-    height: 380px;
+    height: 350px;
     margin-top: 20vh;
     border-radius: 10px;
     position: relative;
@@ -44,19 +44,20 @@ body {
     letter-spacing: 3px;
     font-weight: 400;
     position: absolute;
-    top: 18%;
+    top: 12%;
 }
 
 .advice-content-style {
     color: var(--light-cyan);
     text-align: center;
     width: 300px;
+    padding: 10px 0;
     font-size: 25px;
 }
 
 .line-divider {
     position: absolute;
-    bottom: 18%;
+    bottom: 13%;
 }
 
 .random-button {
@@ -67,6 +68,11 @@ body {
     position: absolute;
     bottom: -9%;
     cursor: pointer;
+}
+
+.random-button:hover {
+    box-shadow: var(--neon-green) 0px 10px 50px;
+    transition: .5s;
 }
 
 /* ATTRIBUTION */

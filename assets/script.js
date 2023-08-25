@@ -23,6 +23,6 @@ function displayAdvice(id, advice) {
     adviceContent.textContent = advice;
 }
 
-randomButton.addEventListener("click", displayAdvice)
+randomButton.addEventListener("click", getRandomAdvice)
 
 getRandomAdvice()
