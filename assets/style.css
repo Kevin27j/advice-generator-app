@@ -80,3 +80,14 @@ body {
     position: fixed;
     bottom: 0;
 }
+
+@media only screen and (min-width: 769px) {
+    .advice-container {
+        min-width: 530px;
+    }
+
+    .advice-content-style {
+        width: 420px;
+    }
+
+}
